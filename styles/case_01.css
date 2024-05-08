@@ -1,5 +1,16 @@
 body{
     position: relative;
+    background-color: #FFFBE2;
+}
+
+#header{
+    text-align: center;
+    font-size: 40px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
 }
 
 section>div{
@@ -37,5 +48,9 @@ section>div>div>div{
 
 .button{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
