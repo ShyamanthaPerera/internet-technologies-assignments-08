@@ -1,0 +1,41 @@
+body{
+    position: relative;
+}
+
+section>div{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 200px;
+}
+
+section>div>div{
+    width: 200px;
+    height: 200px;
+    background: url("https://cdn.dribbble.com/users/1074894/screenshots/5302287/walk.gif");
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.house{
+    width: 200px;
+    height: 200px;
+    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/0f7add78718287.5cad0abb3589a.gif");
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section>div>div>div{
+    padding-top: 30px;
+    padding-left: 80px;
+
+    font-size: 30px;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
